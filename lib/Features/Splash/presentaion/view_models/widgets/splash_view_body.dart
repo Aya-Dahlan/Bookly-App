@@ -1,5 +1,5 @@
 import 'package:bookly_app/Features/Splash/presentaion/view_models/widgets/sliding_text.dart';
-import 'package:bookly_app/Features/home/presentaion/views/home_viw.dart';
+import 'package:bookly_app/Features/home/presentaion/views/home_view.dart';
 import 'package:bookly_app/constants.dart';
 import 'package:bookly_app/core/utils/assets.dart';
 import 'package:flutter/cupertino.dart';
@@ -71,7 +71,7 @@ class _SplashViewBodyState extends State<SplashViewBody>
     return Future.delayed(const Duration(seconds: 2), () {
     Get.to(
       () =>const HomeView(),
-      //calculations
+      //calculations  
       transition: Transition.fade,
       duration: kTranstionDuration
     );
