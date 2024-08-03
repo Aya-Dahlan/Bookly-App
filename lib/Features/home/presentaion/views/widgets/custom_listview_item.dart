@@ -1,6 +1,5 @@
 
 import 'package:bookly_app/core/utils/assets.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class CustomListViewItem extends StatelessWidget {
