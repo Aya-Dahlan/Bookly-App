@@ -1,4 +1,5 @@
 import 'package:bookly_app/Features/home/presentaion/views/widgets/home_view_body.dart';
+import 'package:bookly_app/core/utils/assets.dart';
 import 'package:flutter/material.dart';
 
 class HomeView extends StatelessWidget {
@@ -11,3 +12,4 @@ class HomeView extends StatelessWidget {
     );
   }
 }
+
