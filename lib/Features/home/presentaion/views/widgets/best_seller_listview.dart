@@ -1,4 +1,3 @@
-
 import 'package:bookly_app/Features/home/presentaion/views/widgets/best_seller_listview_item.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
@@ -11,7 +10,7 @@ class BestSellerListView extends StatelessWidget {
     return Expanded(
       child: ListView.builder(
         shrinkWrap: true,
-        physics: NeverScrollableScrollPhysics(),
+        physics: const NeverScrollableScrollPhysics(),
         padding: EdgeInsets.zero,
         itemCount: 10,
         itemBuilder: (context, index) {
